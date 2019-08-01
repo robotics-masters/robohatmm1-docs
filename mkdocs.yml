@@ -23,8 +23,11 @@ pages:
         - 'Controllers': parts/controllers.md
         - 'Stores': parts/stores.md
         - 'IMU': parts/imu.md
-    - Utilities:
-        - 'donkey': utility/donkey.md
+    # - Utilities:
+    #     - 'donkey': utility/donkey.md
+    - Example:
+        - 'donkey': example/donkeycar/donkeycar.md
+        - '驴子车': example/donkeycar/donkeycar_cn.md
 
     - Supported Cars: supported_cars.md
     - Roll Your Own: roll_your_own.md

@@ -1,51 +1,76 @@
-# About Donkey&reg;
+# About Robo HAT MM1
 
-Donkey is a high level self driving library written in Python. It was
-developed with a focus on enabling fast experimentation and easy contribution.
+Robo HAT MM1  is an open source robotics controller board designed for Single Board Computers with standard 40pin GPIO(eg. Raspberry Pi, Jetson Nano etc.). It is education focused but works in many applications. The Robo HAT provides all the hardware you need in one simple, easy-to-use form factor. It removes the initial barriers to starting any robotics project.
 
 ---------
+**latest image here**
 
-### Build your own Donkey
+## Features & Specifications
 
-Donkey is the standard car that most people build first. The parts cost about $250 to $300 and take 2 hours to assemble. Here are the main steps to build your own car:
+* **Processor**: 48 MHz [SAM D21G (M0)](https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATSAMD21G18A-AU?qs=sGAEpiMZZMuoKKEcg8mMKHVqFrYvdykF7SWP9ZdTp88KpGTiVTkl7A%3D%3D)
+* **Memory**: 32 KB SRAM
+* **Storage:** 256 KB internal programmable flash + additional 8 MB SPI flash
+* **Multi-product Compatibility**
+    * Jetson Nano
+    * Raspberry Pi: all models with 40 pin header
+        * Model B+, 2B, 2B+, 3B and 3B+
+        * Model A+ and 3A+
+        * Zero and Zero W
+* **Raspberry Pi Interfacing**  
+    - Two (2) GPIO directly to Raspberry Pi (SW programming)  
+    - Two (2) GPIO directly to Raspberry Pi (UART-serial console)  
+    - I²C or SPI to Raspberry Pi  
+    - EEPROM recognition   
+* **Programmable I/O:** All are re-programmable to match a supported special function
+    - Eight (8) x 16-bit servo output (programmable up to 24-bit)
+    - Four (4) x 16-bit RC controller input
+    - Two (2) x Serial console pass through
+    - One (1) x NeoPixel output
+    - Nine (9) x GPIO pins through SPI / GPS ports
+* **Sensor Interfacing:** Also re-programmable as general IO pins
+    * [Dronecode](https://wiki.dronecode.org/workgroup/connectors/start) Compatible Connectors
+         - SPI
+         - GPS
+         - USART
+         - I²C
+* **Triple-redundant Power Supply Support**
+    - Feedback through servo power rail (e.g., from ESC)
+    - 5 V from on-board regulator powered through main battery
+    - 5 V from on-board regulator power through backup LiPo battery + charger via USB  
+* **Built-in Protection**
+    - USB Port is protected from voltage spikes
+    - All power rails are protected by reverse voltage protection circuits.
+    - 5 V regulator is able to power Raspberry Pi  
+* **Sensors**
+    - [INA219](http://www.ti.com/lit/ds/symlink/ina219.pdf) current sensor
+    - [MPU9250 9DoF](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) high-precision IMU
+    - Add-on boards through I²C and SPI (such as pressure sensor, secondary IMU, etc)
+* **Physical Dimensions**
+    * Standard HAT format
+    * Length: 65 mm
+    * Depth: 56.5 mm
+    * Height: 30 mm
 
-1. [Assemble hardware.](guide/build_hardware.md)
-2. [Install software.](guide/install_software.md)
+----------------
+
+### Get Started
+
+Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [Arduino IDE](https://www.arduino.cc/), and other libraries the Robo HAT is able to act as a single solution for all projects great and small.
+
+####Firmware Options
+1. [CircuitPython](firmwares/circuitpython.md)
+2. [Arduino](firmwares/arduino.md)
 3. [Create Donkey App.](guide/create_application.md)
 4. [Calibrate your car.](guide/calibrate.md)
 5. [Start driving.](guide/get_driving.md)
 6. [Train an autopilot.](guide/train_autopilot.md)
 7. [Experiment with simulator.](guide/simulator.md)
 
+#### Board Pinout
+
+![Pinout](/assets/pinout_map.jpg)
+
 ---------------
-
-
-
-### Hello World.
-
-Donkeycar is designed to make adding new parts to your car easy. Here's an
-example car application that captures images from the camera and saves them.
-
-```python
-import donkey as dk
-
-#initialize the vehicle
-V = dk.Vehicle()
-
-#add a camera part
-cam = dk.parts.PiCamera()
-V.add(cam, outputs=['image'], threaded=True)
-
-#add tub part to record images
-tub = dk.parts.Tub(path='~/mycar/data',
-                   inputs=['image'],
-                   types=['image_array'])
-V.add(tub, inputs=inputs)
-
-#start the vehicle's drive loop
-V.start(max_loop_count=100)
-```
-----------------
 
 ### Installation
 
@@ -53,9 +78,6 @@ V.start(max_loop_count=100)
 
 -----------------------
 
-### Why the name Donkey?
+### Why the name Robo HAT MM1?
 
-The ultimate goal of this project is to build something useful. Donkey's were
-one of the first domesticated pack animals, they're notoriously stubborn, and
-they are kid safe. Until the car can navigate from one side of a city to the
-other, we'll hold off naming it after some celestial being.
+"TO-DO
