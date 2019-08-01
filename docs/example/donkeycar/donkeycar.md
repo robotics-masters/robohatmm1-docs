@@ -11,11 +11,11 @@ Hardware Parts
 | **Raspberry Pi**| model 3B or above | [3b]() [3b+]() 4b [[1G](), [2G](), [4G]()] |
 | **Camera module** | recommend 5 Megapixel wide angle lens | [5 Megapixel fisheye]()
 | **SD Card** | recommend 16Gb or above | [SD card]()  |
-| **RoboHAT MM1 Pi HAT** | add-on controller board| [／re-order]() |
+| **RoboHAT MM1 Pi HAT** | add-on controller board| [Pre-order]() |
 | **RC Car Chassis**  | recommend HSP RC Car 1:16 4WD High Speed Off-road Monster Truck | [HSP Monster Truck]()  |
 | **RC Controller & Receiver**| recommend to use the RC controller & Receiver come with the Car |  |
-| **Roll Cage** | 3D printed Parts can be purchased from our online shop | [3D print STL file](), [Buy online]()  |
-| **Battery**  | 11.1V 3S Li-Po with 7000mAH - 10000mAH 25C  | [Battery]（） |
+| **Roll Cage** | 3D printed Parts can be purchased from our online shop | [3D print STL file]() or <br> [Buy online]()  |
+| **Battery**  | 11.1V 3S Li-Po with 7000mAH - 10000mAH 25C  | [Battery]()  |
 
 ### Jetson Nano Build
 
@@ -27,8 +27,8 @@ Hardware Parts
 | **RoboHAT MM1 Pi HAT** | add-on controller board | [Pre-order]() |
 | **RC Car Chassis** | recommend HSP RC Car 1:16 4WD High Speed Off-road Monster Truck | [HSP Monster Truck]()  |
 | **RC Controller & Receiver** | recommend to use the RC controller & Receiver come with the Car |  |
-| **Roll Cage** | 3D printed Parts can be purchased from our online shop  | [3D print STL file](), [Buy online]()  |
-| **Battery**  | 11.1V 3S Li-Po with 7000mAH - 10000mAH 25C  | [Battery]（） |
+| **Roll Cage** | 3D printed Parts can be purchased from our online shop  | [3D print STL file]() or <br> [Buy online]()  |
+| **Battery**  | 11.1V 3S Li-Po with 7000mAH - 10000mAH 25C  | [Battery]() |
 
 ---
 
