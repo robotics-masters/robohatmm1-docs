@@ -38,10 +38,10 @@
 
 ### 树莓派
 
-* [树莓派](example/donkeycar/robot_sbc/setup_raspberry_pi_cn.md)![小毛驴](/assets/logos/rpi_logo.png)设置安装
+* [树莓派](robot_sbc/setup_raspberry_pi_cn.md)![驴子车](/assets/logos/rpi_logo.png)设置安装
 
 ### Jetson Nano
 
-* [英伟达Jetson Nano](example/donkeycar/obot_sbc/setup_jetson_nano_cn.md)![小毛驴](/assets/logos/nvidia_logo.png)设置安装
+* [英伟达Jetson Nano](robot_sbc/setup_jetson_nano_cn.md)![驴子车](/assets/logos/nvidia_logo.png)设置安装
 
 ---

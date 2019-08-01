@@ -1,19 +1,19 @@
-# Get Your Jetson Nano Working
+# Jetson Nano驴子车安装步骤
 
-![donkey](/assets/logos/nvidia_logo.png)
+![Jetson Nano驴子车](/assets/logos/nvidia_logo.png)
 
-* [Step 1: Flash Operating System](#step-1-flash-operating-system)
-* [Step 2: Install Dependencies](#step-2-install-dependencies)
-* [Step 3: Setup Virtual Env](#step-3-setup-virtual-env)
-* [Step 4: Install OpenCV](#step-4-install-opencv)
-* [Step 5: Install Donkeycar Python Code](#step-5-install-donkeycar-python-code)
+* [步骤 1: Flash Operating System](#步骤-1-flash-operating-system)
+* [步骤 2: Install Dependencies](#步骤-2-install-dependencies)
+* [步骤 3: Setup Virtual Env](#步骤-3-setup-virtual-env)
+* [步骤 4: Install OpenCV](#步骤-4-install-opencv)
+* [步骤 5: Install Donkeycar Python Code](#步骤-5-install-donkeycar-python-code)
 * Then [Create your Donkeycar Application](/guide/create_application/)
 
-## Step 1: Flash Operating System
+## 步骤 1: Flash Operating System
 
 Visit the official [Nvidia Jetson Nano Getting Started Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#prepare). Work through the __Prepare for Setup__, __Writing Image to the microSD Card__, and __Setup and First Boot__ instructions, then return here.
 
-## Step 2: Install Dependencies
+## 步骤 2: Install Dependencies
 
 ssh into your vehicle. Use the the terminal for Ubuntu or Mac. [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) for windows.
 
@@ -26,7 +26,7 @@ sudo apt-get install build-essential python3 python3-dev python3-pip libhdf5-ser
 
 Optionally, you can install RPi.GPIO clone for Jetson Nano from [here](https://github.com/NVIDIA/jetson-gpio). This is not required for default setup, but can be useful if using LED or other GPIO driven devices.
 
-##  Step 3: Setup Virtual Env
+##  步骤 3: Setup Virtual Env
 
 ```bash
 pip3 install virtualenv
@@ -35,15 +35,15 @@ echo "source env/bin/activate" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## Step 4: Install OpenCV
+## 步骤 4: Install OpenCV
 
-To install Open CV on the Jetson Nano, you need to build it from source. Building OpenCV from source is going to take some time, so buckle up. If you get stuck, [here](https://www.pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/) is another great resource which will help you compile OpenCV. 
+To install Open CV on the Jetson Nano, you need to build it from source. Building OpenCV from source is going to take some time, so buckle up. If you get stuck, [here](https://www.pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/) is another great resource which will help you compile OpenCV.
 
 > Note: In some cases Python OpenCV may already be installed in your disc image. If the file exists, you can optionally copy it to your environment rather than build from source. Nvidia has said they will drop support for this, so longer term we will probably be building it. If this works:
-> 
+>
 > ```
 > mkdir ~/mycar
-> cp /usr/lib/python3.6/dist-packages/cv2.cpython-36m-aarch64-linux-gnu.so ~/mycar/ 
+> cp /usr/lib/python3.6/dist-packages/cv2.cpython-36m-aarch64-linux-gnu.so ~/mycar/
 > cd ~/mycar
 > python -c "import cv2"
 > ```
@@ -51,7 +51,7 @@ To install Open CV on the Jetson Nano, you need to build it from source. Buildin
 > Then you have a working version and can skip this portion of the guide.
 > However, following the swapfile portion of this guide has made performance more predictable and solves memory thrashing.
 
-The first step in building OpenCV is to define swap space on the Jetson Nano. The Jetson Nano has `4GB` of RAM. This is not sufficient to build OpenCV from source. Therefore we need to define swap space on the Nano to prevent memory thrashing.
+The first 步骤 in building OpenCV is to define swap space on the Jetson Nano. The Jetson Nano has `4GB` of RAM. This is not sufficient to build OpenCV from source. Therefore we need to define swap space on the Nano to prevent memory thrashing.
 
 ```bash
 # Allocates 4G of additional swap space at /var/swapfile
@@ -135,14 +135,14 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 
 The `cmake` command should show a summary of the configuration. Make sure that the `Interpreter` is set to the Python executable associated to *your* virtualenv.  Note: there are several paths in the CMake setup, make sure they match where you downloaded and saved the OpenCV source.
 
-To compile the code from the `build` folder issue the following command. 
+To compile the code from the `build` folder issue the following command.
 
 ```bash
 make -j2
 ```
 
 This will take a while. Go grab a coffee, or watch a movie.
-Once the compilation is complete, you are almost done. Only a few more steps to go.
+Once the compilation is complete, you are almost done. Only a few more 步骤s to go.
 
 ```bash
 # Install OpenCV
@@ -150,9 +150,9 @@ sudo make install
 sudo ldconfig
 ```
 
-The final step is to correctly link the built `OpenCV` native library to your virtualenv.
+The final 步骤 is to correctly link the built `OpenCV` native library to your virtualenv.
 
-The native library should now be installed in a location that looks like `/usr/local/lib/python3.6/site-packages/cv2/python-3.6/cv2.cpython-36m-xxx-linux-gnu.so`. 
+The native library should now be installed in a location that looks like `/usr/local/lib/python3.6/site-packages/cv2/python-3.6/cv2.cpython-36m-xxx-linux-gnu.so`.
 
 ```bash
 # Go to the folder where OpenCV's native library is built
@@ -199,7 +199,7 @@ import cv2
 # Should print 4.1.0
 print(cv2.__version__)
 ```
-##  Step 5: Install Donkeycar Python Code
+##  步骤 5: Install Donkeycar Python Code
 
 * Change to a dir you would like to use as the head of your projects.
 

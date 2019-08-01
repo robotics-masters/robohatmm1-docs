@@ -60,7 +60,7 @@ Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [
 ####Firmware Options
 1. [CircuitPython](firmwares/circuitpython.md)
 2. [Arduino](firmwares/arduino.md)
-3. [Create Donkey App.](guide/create_application.md)
+3. [Dronecode](firmwares/dronecode.md) -- TO-DO
 4. [Calibrate your car.](guide/calibrate.md)
 5. [Start driving.](guide/get_driving.md)
 6. [Train an autopilot.](guide/train_autopilot.md)
