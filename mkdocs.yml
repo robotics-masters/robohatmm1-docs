@@ -9,14 +9,18 @@ extra_css:
 
 pages:
     - Home: index.md
+    - Hardware:
+        - 'Pinout map': hardware/pinout.md
+    - Firmwares:
+        - 'Bootloader': firmwares/bootloader.md
+        - 'Circuit Python': firmwares/circuitpython.md
+        - 'Arduino': firmwares/arduino.md
+        - 'Seesaw': firmwares/seesaw.md
+        - 'Dronecode': firmwares/dronecode.md
     - User Guide:
-        - 'Build a car.': guide/build_hardware.md
-        - 'Install the software.': guide/install_software.md
-        - 'Create Donkeycar App.': guide/create_application.md
-        - 'Calibrate steering and throttle.': guide/calibrate.md
-        - 'Get driving.': guide/get_driving.md
-        - 'Train an autopilot.': guide/train_autopilot.md
-        - 'Donkey Simulator.': guide/simulator.md
+        - 'Preperation': guide/preperation.md
+        - 'Flash Firmware': guide/flash_firmware.md
+        - 'API': guide/api.md
     - Parts:
         - 'About': parts/about.md
         - 'Actuators': parts/actuators.md
@@ -26,7 +30,7 @@ pages:
     # - Utilities:
     #     - 'donkey': utility/donkey.md
     - Example:
-        - 'donkey': example/donkeycar/donkeycar.md
+        - 'Donkey&reg; Car': example/donkeycar/donkeycar.md
         - '驴子车': example/donkeycar/donkeycar_cn.md
 
     - Supported Cars: supported_cars.md

@@ -7,9 +7,9 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
 
 ## Features & Specifications
 
-* **Processor**: 48 MHz [SAM D21G (M0)](https://www.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATSAMD21G18A-AU?qs=sGAEpiMZZMuoKKEcg8mMKHVqFrYvdykF7SWP9ZdTp88KpGTiVTkl7A%3D%3D)
-* **Memory**: 32 KB SRAM
-* **Storage:** 256 KB internal programmable flash + additional 8 MB SPI flash
+* **Processor**: 120 MHz [SAM D51G (M4)](http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf)
+* **Memory**: 192 KB SRAM
+* **Storage:** 512 KB internal programmable flash + additional 8 MB SPI flash
 * **Multi-product Compatibility**
     * Jetson Nano
     * Raspberry Pi: all models with 40 pin header
@@ -40,7 +40,7 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
 * **Built-in Protection**
     - USB Port is protected from voltage spikes
     - All power rails are protected by reverse voltage protection circuits.
-    - 5 V regulator is able to power Raspberry Pi  
+    - 5 V regulator is able to provide 5A continues and 8A peak.
 * **Sensors**
     - [INA219](http://www.ti.com/lit/ds/symlink/ina219.pdf) current sensor
     - [MPU9250 9DoF](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) high-precision IMU
@@ -53,20 +53,21 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
 
 ----------------
 
-### Get Started
+## Get Started
 
 Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [Arduino IDE](https://www.arduino.cc/), and other libraries the Robo HAT is able to act as a single solution for all projects great and small.
 
-####Firmware Options
+### Bootloader
+
+[UF2 bootloader](firmwares/bootloader.md)
+
+### Firmware Options
 1. [CircuitPython](firmwares/circuitpython.md)
 2. [Arduino](firmwares/arduino.md)
-3. [Dronecode](firmwares/dronecode.md) -- TO-DO
-4. [Calibrate your car.](guide/calibrate.md)
-5. [Start driving.](guide/get_driving.md)
-6. [Train an autopilot.](guide/train_autopilot.md)
-7. [Experiment with simulator.](guide/simulator.md)
+3. [SeeSaw](firmwares/seesaw.md) -- TO-DO
+4. [Dronecode](firmwares/dronecode.md) -- TO-DO
 
-#### Board Pinout
+### Board Pinout
 
 ![Pinout](/assets/pinout_map.jpg)
 
