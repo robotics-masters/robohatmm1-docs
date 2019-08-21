@@ -40,7 +40,7 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
 * **Built-in Protection**
     - USB Port is protected from voltage spikes
     - All power rails are protected by reverse voltage protection circuits.
-    - 5 V regulator is able to provide 5A continues and 8A peak.
+    - 5V Main power regulator is able to provide 5A continues and 8A peak.
 * **Sensors**
     - [INA219](http://www.ti.com/lit/ds/symlink/ina219.pdf) current sensor
     - [MPU9250 9DoF](https://www.invensense.com/products/motion-tracking/9-axis/mpu-9250/) high-precision IMU
