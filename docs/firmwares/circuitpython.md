@@ -1,47 +1,31 @@
-#Install Software
+#CircuitPython
 
-* [Overview](#Overview)
-* Software:
-    * [Step 1: Install Software on Host PC](install_software.md#step-1-install-software-on-host-pc)
-    * [Step 2: Install Software on Donkeycar](install_software.md#step-2-install-software-on-donkeycar)
-* [Create Donkeycar Application](/guide/create_application/)
+* [Overview](#overview)
+* [Enter Bootloader mode](#bootloader-mode)
+* [Download latest MM1 CircuitPython firmware](#download-firmware)
+* [Flash Firmware](#flash-firmware)
 
 ## Overview
+Thanks to Adafruit for the implementation of [CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)![donkey](/assets/logos/rpi_logo.png)
 
-Donkeycar has components to install on a host PC. This can be a laptop, or desktop machine. The machine doesn't have to be powerful, but it will benefit from faster cpu, more ram, and an NVidia GPU. An SSD hard drive will greatly impact your training times.
+CircuitPython is a programming language designed to simplify experimenting and learning to program on low-cost microcontroller boards. It makes getting started easier than ever with no upfront desktop downloads needed. Once you get your board set up, open any text editor, and get started editing code. It's that simple.
 
-Donkeycar software components need to be installed on the robot platform of your choice. Raspberry Pi and Jetson Nano have setup docs. But it has been known to work on Jetson TX2, Friendly Arm SBC, or almost any Debian based SBC ( single board computer ).
+##Bootloader Mode
 
-After install, you will create the Donkeycar application from a template. This contains code that is designed for you to customize for your particular case. Don't worry, we will get you started with some useful defaults.
+To enter the bootloader mode on RoboHAT MM1, please plugin the Micro-USB cable to your computer, then double press the reset button located on the right bottom side of the board and above the Grove connecter.
+Then you will see the on board Red LED blink in breath mode, then you will see a ROBOM4BOOT drive on the your computer, CONGRATULATION your mm1 is currently in the bootloader mode.
 
-Next we will train the Donkeycar to drive on it's own based on your driving style! This uses a supervised learning technique often referred to as behavioral cloning.
+Now if you want to exit the bootloader mode just simply press the reset button once.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BQY9IgAxOO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+##Download Firmware
 
-This is not the only method for getting your Donkeycar to drive itself. But it requires the least amount of hardware and least technical knowledge. Then you can explore other techniques in this Ai mobile laboratory called Donkeycar!
+Please visit Adafruit CircuitPython [firmware download page](https://circuitpython.org/board/robohatmm1_m4/)
+Please choose the relevant language you want to use for the CircuitPython REPL and then click DOWNLOAD .UF2 NOW button, you will have a file with name like this "adafruit-circuitpython-robohatmm1_m4-en_US-5.0.0-beta.0.uf2".
 
-## Step 1: Install Software on Host PC
+##Flash Firmware
 
-When controlling your Donkey via behavioral cloning, you will need to setup a host pc to train your machine learning model from the data collected on the robot. Choose a setup that matches your computer OS.
+To flash the firmware just simply drag the firmware file you have downloaded above with .uf2 to the "ROBOM4BOOT" USB drive.  
 
+Then wait for the circuitpython firmware to boot up, then you will see the Red LED blinks for a bit and then stop blinking, then you will see a "CIRCUITPY" USB drive show up on you computer.
 
-* Setup [Linux Host PC](host_pc/setup_ubuntu.md)
-![donkey](/assets/logos/linux_logo.png)
-* Setup [Windows Host PC](host_pc/setup_windows.md)
-![donkey](/assets/logos/windows_logo.png)
-* Setup [Mac Host PC](host_pc/setup_mac.md)
-![donkey](/assets/logos/apple_logo.jpg)
-
-
-# Step 2: Install Software On Donkeycar
-
-This guide will help you to setup the software to run Donkeycar on your Raspberry Pi or Jetson Nano. Choose a setup that matches your SBC type. (SBC = single board computer)
-
-* Setup [RaspberryPi](robot_sbc/setup_raspberry_pi.md)
-![donkey](/assets/logos/rpi_logo.png)
-
-* Setup [Jetson Nano](robot_sbc/setup_jetson_nano.md)
-![donkey](/assets/logos/nvidia_logo.png)
-
-
-## Next: [Create Your Donkeycar Application](/guide/create_application/).
+## Next: [Programming in circuitpython](/guide/API/Circuit_Python_API/).
