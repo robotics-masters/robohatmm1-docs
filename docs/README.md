@@ -1,4 +1,4 @@
-## Donkey Docs&reg;
+## RoboHAT MM1 Docs&reg;
 
 The source of the documenation gets built in the folder `../site` and is
 published to (http://peterpanstechland.github.io/robohatmm1). Our docs use extended markdown
