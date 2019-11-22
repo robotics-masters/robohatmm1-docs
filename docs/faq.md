@@ -1,6 +1,8 @@
 # FAQ
 ---------
 
+
+
 ### What types of RC cars work with the donkey platform?
 Most hobby grade RC cars will work fine with the electronics but you'll need to make your own baseplate and camera
 holder. To make sure the car will work with Donkey check theses things.
@@ -55,4 +57,3 @@ Here are a couple systems that people have tried or talked about.
     git pull origin master
     donkey createcar --path ~/mycar --overwrite
     ```
-

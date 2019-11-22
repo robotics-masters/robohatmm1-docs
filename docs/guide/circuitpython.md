@@ -1,9 +1,15 @@
-## Circuit Python API
+# Circuit Python
 
+* [Introduction](#introduction)
+    - [The lib folder](#the-lib-folder)
+    - [The code.py file](#the-codepy-file)
+* [Examples](#examples)
+    - [Blink](#blink-example)
+    - [Servos](#servos-example)
 
-#Introduction
+##Introduction
 
-## The lib folder
+### The lib folder
 
 Inside your CIRCUITPY drive there will be a folder called `lib`.  This folder will contain any libraries you want to use with CircuitPython.  It is similar to the Python site-packages folder.
 
@@ -12,7 +18,7 @@ To add a new library you just download the corresponding python file (usually `.
 CircuitPython supports many common libraries and devices.  You can find them all on their [GitHub](https://github.com/adafruit) page or alternatively download the [CircuitPython Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases) which contains many of the common hardware you find.
 
 
-## The code.py file
+### The code.py file
 
 All the code you want to run on a CircuitPython board must be placed into the `code.py` file.  CircuitPython runs the `code.py` file when the board restarts.
 
@@ -22,9 +28,9 @@ You are able to import other Python files but remember that `code.py` is the fil
 python3 code.py
 ```
 
-# Examples
+## Examples
 
-## Blink - example
+### Blink - example
 
 This example blinks the on board LED forever.
 
@@ -45,7 +51,7 @@ while True:
 ```
 
 
-## Servos - Example
+### Servos - Example
 
 This example moves the servo motor attached to SERVO1 pin in a pan motion.  It will continue doing this over and over until you stop it.
 
@@ -86,6 +92,4 @@ while True:
 
 Make sure you check out the [Adafruit Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/overview) to get further information about CircuitPython and how to use all the libraries.
 
-
-
-
+Head to [CircuitPython API] for more information about the pins and library.

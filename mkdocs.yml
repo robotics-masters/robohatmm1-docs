@@ -13,14 +13,18 @@ pages:
         - 'Pinout map': hardware/pinout.md
     - Firmwares:
         - 'Bootloader': firmwares/bootloader.md
-        - 'Circuit Python': firmwares/circuitpython.md
+        - 'Flash Firmware': firmwares/flash_firmware.md
+        - 'Circuit Python Firmware': firmwares/circuitpython.md
         - 'Arduino': firmwares/arduino.md
         - 'Seesaw': firmwares/seesaw.md
         - 'Dronecode': firmwares/dronecode.md
     - User Guide:
         - 'Preperation': guide/preperation.md
-        - 'Flash Firmware': guide/flash_firmware.md
-        - 'API': guide/api.md
+        - 'Circuit Python': guide/circuitpython.md
+        - 'Circuit Python API': guide/Circuitpython API/Circuit_Python_API.md
+        - 'Arduino': guide/arduino.md
+        - 'Arduino API': guide/Arduino API/Arduino_API.md
+
     - Parts:
         - 'About': parts/about.md
         - 'Actuators': parts/actuators.md
