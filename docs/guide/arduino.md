@@ -41,3 +41,4 @@ void loop() {
 }
 
 ```
+Head to [Arduino API](/guide/Arduino%20API/Arduino_API/) for more information about the pins and library.

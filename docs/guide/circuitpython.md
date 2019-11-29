@@ -92,4 +92,4 @@ while True:
 
 Make sure you check out the [Adafruit Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/overview) to get further information about CircuitPython and how to use all the libraries.
 
-Head to [CircuitPython API] for more information about the pins and library.
+Head to [CircuitPython API](/guide/Circuitpython%20API/Circuit_Python_API/) for more information about the pins and library.

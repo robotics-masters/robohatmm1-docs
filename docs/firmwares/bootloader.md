@@ -14,14 +14,29 @@ We selected UF2 bootloader as it is easy to use, the UF2 is stands for [USB Flas
 
 ## Install Bootloader
 
-## Update Bootloader
+Not recommend for beginners.
+
+Please head to our [bootloader github repo](https://github.com/robotics-masters/mm1-hat-bootloader) for more information
 
 ## Enter Bootloader Mode
 
-To enter the bootloader mode on RoboHAT MM1, please plugin the Micro-USB cable to your computer, then double press the reset button located on the right bottom side of the board and above the Grove connecter.
+To enter the Bootloader Mode on RoboHAT MM1.
+
+**STEP 1**: Please plugin the Micro-USB cable to your computer,
+
+**STEP 2**: Double press the reset button located on the right bottom side of the board and above the Grove connecter.
+
 Then you will see the on board Red LED blink in breath mode, then you will see a ROBOM4BOOT drive on the your computer.
 
 CONGRATULATION!!! your RoboHAT MM1 is currently in the bootloader mode.
+
+## Update Bootloader
+
+To update the bootloader
+
+**STEP 1**: Please download the latest Bootloader update file with file extension as UF2 from our [Latest Bootloader UF2 file](https://github.com/robotics-masters/mm1-hat-bootloader/blob/master/builds/v2.4-release-20191021/update-bootloader-robohatmm1_m4-v3.7.0-37-g06c6126.uf2?raw=true).
+
+**STEP 2**: Drag & Drop the latest Bootloader update file you have downloaded from above to the ROBOM4BOOT drive.(note: this is drive only show up in Bootloader mode)
 
 ## Developer
 

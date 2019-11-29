@@ -20,7 +20,7 @@
 ---
 #### For [Circuitpython](/guide/circuitpython/)
 
-- Adafruit Circuitpyhton Driver for [Windows 7](https://github.com/adafruit/Adafruit_Windows_Drivers/releases/tag/2.4.0.0)
+- Adafruit Circuitpyhton [Driver](https://github.com/adafruit/Adafruit_Windows_Drivers/releases/tag/2.4.0.0) for Windows 7
 - Serial Monitor([Putty](https://www.putty.org/) for Windows, minicom for Linux or Mac)
 
 #### For [Arduino](/guide/arduino/)

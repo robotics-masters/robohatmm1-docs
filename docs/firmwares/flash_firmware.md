@@ -1,28 +1,17 @@
 #Flash Firmware
 
 * [Overview](#overview)
-* [Install Bootloader](#install-bootloader)
-* [Update Bootloader](#update-bootloader)
-* [Enter Bootloader Mode](#enter-bootloader-mode)
-* [Developer](#developer)
+* [Firmware options](#firmware-options)
 
 ## Overview
 
-Bootloader is ...
+Firmware is the software that runs on the microcontroller as an operating environment, for example for CircuitPython firmware, the microcontroller shows up as an USB drive and automatically excute the "code.py" file after each boot.
 
-We selected UF2 bootloader as it is easy to use, the UF2 is stands for [USB Flashing Format](https://github.com/Microsoft/uf2) which is developed by Microsoft, it is designed for programming microcontrollers by enumerate it as a mass storage device over USB.
+## Firmware options
 
-## Install Bootloader
+Currently supported firmware:
 
-## Update Bootloader
+  * [CircuitPython](/firmwares/circuitpython/)
+  * [Arduino](/firmwares/arduino/)
 
-## Enter Bootloader Mode
-
-To enter the bootloader mode on RoboHAT MM1, please plugin the Micro-USB cable to your computer, then double press the reset button located on the right bottom side of the board and above the Grove connecter.
-Then you will see the on board Red LED blink in breath mode, then you will see a ROBOM4BOOT drive on the your computer.
-
-CONGRATULATION!!! your RoboHAT MM1 is currently in the bootloader mode.
-
-## Developer
-
-We used the Adafruit fork of the UF2 code which supports SAMD51G19 microcontroller which is used on the RoboHAT MM1.
+You should be in Bootloader Mode to flash firmware on RoboHAT MM1, if not please go back to [Bootloader Page](/firmwares/bootloader), and follow the steps to enter bootloader mode.
