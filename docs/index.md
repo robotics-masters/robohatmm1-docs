@@ -69,7 +69,7 @@ Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [
 
 ## Projects
 
-1. [DonkeyCar]()
+1. [DonkeyCar](example/donkeycar/donkeycar.md)
 
 # Board Pinout
 
