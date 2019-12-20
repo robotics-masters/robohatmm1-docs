@@ -64,8 +64,12 @@ Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [
 ## Firmware Options
 1. [CircuitPython](firmwares/circuitpython.md)
 2. [Arduino](firmwares/arduino.md)
-3. [SeeSaw](firmwares/seesaw.md) -- TO-DO
-4. [Dronecode](firmwares/dronecode.md) -- TO-DO
+3. [SeeSaw](firmwares/seesaw.md) -- Coming Soon!
+4. [Dronecode](firmwares/dronecode.md) -- Coming Soon!
+
+## Projects
+
+1. [DonkeyCar]()
 
 # Board Pinout
 
