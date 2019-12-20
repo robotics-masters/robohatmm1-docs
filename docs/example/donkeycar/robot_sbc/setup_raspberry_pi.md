@@ -186,9 +186,9 @@ cd projects
 * Get the latest donkeycar from Github.
 
 ```bash
-git clone https://github.com/autorope/donkeycar
+git clone https://github.com/robotics-masters/donkeycar
 cd donkeycar
-git checkout master
+git checkout peter-v3.1.1
 pip install -e .[pi]
 pip install tensorflow==1.13.1
 ```
