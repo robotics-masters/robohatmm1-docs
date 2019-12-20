@@ -1,1 +1,40 @@
 theme: jekyll-theme-modernist
+site_name: Robo HAT MM1 Docs
+
+repo_url: https://github.com/robotics-masters/robohatmm1-docs
+edit_uri: edit/master/docs
+extra_css:
+    - extra.css
+
+pages:
+    - Home: index.md
+    - Hardware:
+        - 'Pinout map': hardware/pinout.md
+    - Firmwares:
+        - 'Bootloader': firmwares/bootloader.md
+        - 'Flash Firmware': firmwares/flash_firmware.md
+        - 'Circuit Python Firmware': firmwares/circuitpython.md
+        - 'Arduino': firmwares/arduino.md
+        - 'Seesaw': firmwares/seesaw.md
+        - 'Dronecode': firmwares/dronecode.md
+    - User Guide:
+        - 'Preperation': guide/preperation.md
+        - 'Circuit Python': guide/circuitpython.md
+        - 'Circuit Python API': guide/Circuitpython API/Circuit_Python_API.md
+        - 'Arduino': guide/arduino.md
+        - 'Arduino API': guide/Arduino API/Arduino_API.md
+    - Example:
+        - 'Donkey&reg; Car': example/donkeycar/donkeycar.md
+        - '驴子车': example/donkeycar/donkeycar_cn.md
+    - Parts:
+        - 'About': parts/about.md
+        - 'Actuators': parts/actuators.md
+        - 'Controllers': parts/controllers.md
+        - 'Stores': parts/stores.md
+        - 'IMU': parts/imu.md
+    - Supported Cars: supported_cars.md
+    - Roll Your Own: roll_your_own.md
+    - Contribute : contribute.md
+    - Tests : tests.md
+    - Releases : release.md
+    - FAQ : faq.md
