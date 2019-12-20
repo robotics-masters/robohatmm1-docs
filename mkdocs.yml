@@ -24,19 +24,15 @@ pages:
         - 'Circuit Python API': guide/Circuitpython API/Circuit_Python_API.md
         - 'Arduino': guide/arduino.md
         - 'Arduino API': guide/Arduino API/Arduino_API.md
-
+    - Example:
+        - 'Donkey&reg; Car': example/donkeycar/donkeycar.md
+        - '驴子车': example/donkeycar/donkeycar_cn.md
     - Parts:
         - 'About': parts/about.md
         - 'Actuators': parts/actuators.md
         - 'Controllers': parts/controllers.md
         - 'Stores': parts/stores.md
         - 'IMU': parts/imu.md
-    # - Utilities:
-    #     - 'donkey': utility/donkey.md
-    - Example:
-        - 'Donkey&reg; Car': example/donkeycar/donkeycar.md
-        - '驴子车': example/donkeycar/donkeycar_cn.md
-
     - Supported Cars: supported_cars.md
     - Roll Your Own: roll_your_own.md
     - Contribute : contribute.md

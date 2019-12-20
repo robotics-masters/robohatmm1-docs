@@ -75,7 +75,7 @@ Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [
 
 ### Installation
 
-[How to install](guide/install_software.md)
+<!-- [How to install](guide/install_software.md) -->
 
 -----------------------
 
