@@ -3,8 +3,6 @@ site_name: Robo HAT MM1 Docs
 
 repo_url: https://github.com/robotics-masters/robohatmm1-docs
 edit_uri: edit/master/docs
-extra_css:
-    - extra.css
 
 pages:
     - Home: index.md
