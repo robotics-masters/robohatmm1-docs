@@ -3,7 +3,7 @@
 Robo HAT MM1  is an open source robotics controller board designed for Single Board Computers with standard 40pin GPIO(eg. Raspberry Pi, Jetson Nano etc.). It is education focused but works in many applications. The Robo HAT provides all the hardware you need in one simple, easy-to-use form factor. It removes the initial barriers to starting any robotics project.
 
 ---------
-![Robo HAT MM1 image](robohatmm1.png)
+![Robo HAT MM1 image](../robohatmm1.png)
 
 ## Features & Specifications
 
