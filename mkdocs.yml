@@ -1,7 +1,7 @@
 site_name: RoboHAT MM1
 theme: readthedocs
 
-repo_url: https://github.com/peterpanstechland/RoboHAT_DOC
+repo_url: https://github.com/robotics-masters/robohatmm1-docs
 edit_uri: edit/master/docs
 #google_analytics: ['UA-99215530-2', 'github.io/donkey']
 extra_css:
