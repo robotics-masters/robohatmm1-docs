@@ -1,4 +1,4 @@
 ##Circuitpython Pin Names
-[ ![](../assets/build_hardware/donkey2.PNG) ](/assets/pinout_map.jpg)
+[![Pinout](../assets/pinout_map_small.jpg) ](/assets/pinout_map_small.jpg)
 ##Arduino Pinout
-![Pinout](/assets/pinout_map.jpg)
+![Pinout](/assets/pinout_map_small.jpg)
