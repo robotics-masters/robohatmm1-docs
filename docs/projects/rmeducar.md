@@ -71,3 +71,34 @@ while True:
     print("Altitude = %0.2f meters" % bmp280.altitude)
     time.sleep(2)
 ```
+
+### Infrared Line Finder
+
+This sensor allows the car to follow lines.  It outputs digital signals that can be used to tell the car to change direction to stay on the line.  It includes a 74HC14D shift register for keeping track of the state of all the infrared sensors.
+
+
+
+### Optical Rotary Encoder
+
+MD-1358
+
+
+
+### Ultrasonic Distance Sensor
+
+The commonly used HC-SR04 Distance Sensor is used for measuring distances between 2 centimeters up to 4 meters.   
+
+
+### Other Components
+
+There are a number of other parts included
+
+- Motor Driver
+- Light Dependant Resistor
+- Resistors
+- Battery Holder
+- Motors
+- Solderless Breadboard
+
+
+
