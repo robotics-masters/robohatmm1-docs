@@ -27,6 +27,8 @@ pages:
     - Example:
         - 'Donkey&reg; Car': example/donkeycar/donkeycar.md
         - '驴子车': example/donkeycar/donkeycar_cn.md
+    - Projects: 
+        - 'RM EduCar' : projects/rmeducar.md
     - Parts:
         - 'About': parts/about.md
         - 'Actuators': parts/actuators.md
