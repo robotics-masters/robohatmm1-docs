@@ -86,7 +86,7 @@ MD-1358
 
 ### Ultrasonic Distance Sensor
 
-The commonly used HC-SR04 Distance Sensor is used for measuring distances between 2 centimeters up to 4 meters.   
+The commonly used HC-SR04 Distance Sensor is used for measuring distances between 2 centimeters up to 4 meters.   It sends out a 'sound pulse' and 'listens' for a response.   
 
 
 ### Other Components
