@@ -89,6 +89,16 @@ MD-1358
 The commonly used HC-SR04 Distance Sensor is used for measuring distances between 2 centimeters up to 4 meters.   It sends out a 'sound pulse' and 'listens' for a response.   
 
 
+
+### Motor Controller
+
+The EduCar uses a Motor Controller to drive the two DC motors that come with the kit.  The model provided with the kit is a TB6612FNG which is a commonly supplied part for powering small motors.  This part works with the Robo HAT MM1 to drive the motors.
+
+[Documentation](https://www.pololu.com/file/0J86/TB6612FNG.pdf)
+[SparkFun Wiring Guide](https://learn.sparkfun.com/tutorials/tb6612fng-hookup-guide/all)
+
+
+
 ### Other Components
 
 There are a number of other parts included
