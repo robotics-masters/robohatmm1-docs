@@ -108,10 +108,25 @@ while True:
 
 The EduCar uses a Motor Controller to drive the two DC motors that come with the kit.  The model provided with the kit is a TB6612FNG which is a commonly supplied part for powering small motors.  This part works with the Robo HAT MM1 to drive the motors.
 
-[Documentation](https://www.pololu.com/file/0J86/TB6612FNG.pdf)
 [SparkFun Wiring Guide](https://learn.sparkfun.com/tutorials/tb6612fng-hookup-guide/all)
+[Datasheet](https://www.pololu.com/file/0J86/TB6612FNG.pdf)
 
 We have developed a custom CircuitPython Library for controlling the motors and encoders.  It can be found here [Robotics Masters Edu Car](https://github.com/peterpanstechland/RoboticsMasters_educar).  Copy the file to the Robo HAT MM1 CIRCUITPY drive when you connect it via USB to your computer.
+
+Example - CircuitPython
+```
+import board
+import time
+from robohateducar import *
+
+car = RoboHatEduCar()
+
+# drive the car forwards 1 metre
+car.drive(RoboHatEduCar.CMD_DRV_FORWARD, 1)
+
+# stop the car
+car.stop()
+```
 
 ### Infrared Line Finder
 
