@@ -73,17 +73,6 @@ while True:
     time.sleep(2)
 ```
 
-### Infrared Line Finder
-
-This sensor allows the car to follow lines.  It outputs digital signals that can be used to tell the car to change direction to stay on the line.  It includes a 74HC14D shift register for keeping track of the state of all the infrared sensors.
-
-
-
-### Optical Rotary Encoder
-
-MD-1358
-
-
 
 ### Ultrasonic Distance Sensor
 
@@ -122,13 +111,22 @@ The EduCar uses a Motor Controller to drive the two DC motors that come with the
 [Documentation](https://www.pololu.com/file/0J86/TB6612FNG.pdf)
 [SparkFun Wiring Guide](https://learn.sparkfun.com/tutorials/tb6612fng-hookup-guide/all)
 
+We have developed a custom CircuitPython Library for controlling the motors and encoders.  It can be found here [Robotics Masters Edu Car](https://github.com/peterpanstechland/RoboticsMasters_educar).  Copy the file to the Robo HAT MM1 CIRCUITPY drive when you connect it via USB to your computer.
 
+### Infrared Line Finder
+
+This sensor allows the car to follow lines.  It outputs digital signals that can be used to tell the car to change direction to stay on the line.  It includes a 74HC14D shift register for keeping track of the state of all the infrared sensors.
+
+
+
+### Optical Rotary Encoder
+
+MD-1358
 
 ### Other Components
 
 There are a number of other parts included
 
-- Motor Driver
 - Light Dependant Resistor
 - Resistors
 - Battery Holder
