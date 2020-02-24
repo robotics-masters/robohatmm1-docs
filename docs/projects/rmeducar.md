@@ -8,7 +8,7 @@ This guide will help you set up the car and get you started.
 
 ### Bluetooth Serial Adaptor
 
-The UART to Bluetooth Bridge Adaptor allows you to use your phone to control the car.  The data rate is locked to 9600 baud.  There are no drivers or additional software packages required for this adaptor to work.
+The UART to Bluetooth Bridge Adaptor allows you to use your phone to control the car.  The data rate is locked to 9600 baud.  There are no drivers or additional software packages required for this adaptor to work.  For the EduCar this part is linked with a number of free apps that allow you to send commands to the car over bluetooth from your phone.
 
 | Robo HAT | Bluetooth |
 |----------|-----------|
@@ -31,6 +31,7 @@ bluetooth.read(1)
 # write bytes
 bluetooth.write(b'Hello, World!')
 ```
+
 
 ### Pressure Sensor
 
@@ -86,8 +87,32 @@ MD-1358
 
 ### Ultrasonic Distance Sensor
 
-The commonly used HC-SR04 Distance Sensor is used for measuring distances between 2 centimeters up to 4 meters.   It sends out a 'sound pulse' and 'listens' for a response.   
+The commonly used HC-SR04 Distance Sensor is used for measuring distances between 2 centimeters up to 4 meters.   It sends out a 'sound pulse' and 'listens' for a response.  It requires the [Adafruit_CircuitPython_HCSR04](https://github.com/adafruit/Adafruit_CircuitPython_HCSR04) library to work.
 
+| Robo HAT | Distance Sensor |
+|----------|-----------------|
+| 3V3   | VCC |
+| GND   | GND |
+| RCC1  | Echo |
+| RCC2  | Trig |
+
+NOTE:  This sensor is 3V and the Robo HAT MM1 only provides 5V outputs.  Also be aware that the Robo HAT MM1 inputs are only 3V tolerable.  You may require a level shifter.
+
+Example - CircuitPython
+```
+import time
+import board
+import adafruit_hcsr04
+
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.RCC2, echo_pin=board.RCC1)
+
+while True:
+    try:
+        print((sonar.distance,))
+    except RuntimeError:
+        print("Retrying!")
+    time.sleep(0.1)
+```
 
 
 ### Motor Controller
