@@ -13,8 +13,8 @@
 **STEP 1:**
 Open preference from your Arduino IDE find the "Additional Boards Manager URLS" section add following URL into the box:
 
-```
-https://raw.githubusercontent.com/peterpanstechland/mm1-hat-arduino/peter/custom_board/package_robohat_index.json
+```HTTP
+https://raw.githubusercontent.com/robotics-masters/mm1-hat-arduino/master/custom_board/package_robohat_index.json
 ```
 
 **STEP 2:**
@@ -26,7 +26,7 @@ Find the Boards Manager from tools>Board:>Boards Manager, search for "Robo HAT",
 
 This example blinks the on board LED forever.
 
-```
+```C
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
@@ -39,6 +39,5 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second
 }
-
 ```
 Head to [Arduino API](/guide/Arduino%20API/Arduino_API/) for more information about the pins and library.

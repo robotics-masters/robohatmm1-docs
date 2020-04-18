@@ -10,7 +10,7 @@
 - Computer (Linux, Mac or Windows)
 - Power supply：
     - 2S(7.4V) - 4S(14.8V) Li-Po Battery
-    - Power Supply with output voltage from ?7V3A to ?15V2A
+    - Power Supply with output voltage from ?7V3A to ?14V2A
 - USB A to Micro USB cable
 - **Check if the E-stop jumper is connected**
 

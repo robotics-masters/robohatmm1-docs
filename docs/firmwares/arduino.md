@@ -13,6 +13,6 @@
 **STEP 1:**
 Open preference from your Arduino IDE find the "Additional Boards Manager URLS" section add following URL into the box:
 
-```
-https://raw.githubusercontent.com/peterpanstechland/mm1-hat-arduino/peter/custom_board/package_robohat_index.json
+```HTTP
+https://raw.githubusercontent.com/robotics-masters/mm1-hat-arduino/master/custom_board/package_robohat_index.json
 ```

@@ -34,7 +34,7 @@ python3 code.py
 
 This example blinks the on board LED forever.
 
-```
+```python
 import board
 import digitalio
 import time
@@ -47,7 +47,6 @@ while True:
     time.sleep(0.5)
     led.value = False
     time.sleep(0.5)
-
 ```
 
 
