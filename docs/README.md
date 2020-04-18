@@ -1,7 +1,7 @@
 ## RoboHAT MM1 Docs
 
 The source of the documenation gets built in the folder `../site` and is
-published to (http://peterpanstechland.github.io/robohatmm1). Our docs use extended markdown
+published to (https://robohatmm1-docs.readthedocs.io/en/latest/). Our docs use extended markdown
 as implemented by MkDocs.
 
 ### Building the documentation
