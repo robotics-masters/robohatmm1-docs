@@ -34,7 +34,7 @@ CONGRATULATION!!! your RoboHAT MM1 is currently in the bootloader mode.
 
 To update the bootloader
 
-**STEP 1**: Please download the latest Bootloader update file with file extension as UF2 from our [Latest Bootloader UF2 file](https://github.com/robotics-masters/mm1-hat-bootloader/blob/master/builds/v2.4-release-20191021/update-bootloader-robohatmm1_m4-v3.7.0-37-g06c6126.uf2?raw=true).
+**STEP 1**: Please download the latest Bootloader update file with file extension as UF2 from our [Latest Bootloader UF2 file](https://circuitpython.org/board/robohatmm1_m4/).
 
 **STEP 2**: Drag & Drop the latest Bootloader update file you have downloaded from above to the ROBOM4BOOT drive.(note: this is drive only show up in Bootloader mode)
 
