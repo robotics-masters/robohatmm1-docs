@@ -21,4 +21,8 @@ This is where you can find information about the Robo HAT MM1 and how to interfa
 | RCC2 | PA06 | RCC2 | A1 | 15 |
 | RCC3 | PA05 | RCC3 | A2 | 16 |
 | RCC4 | PA04 | RCC4 | A3 | 17 |
+| SDA | PA22 | SDA | | 21 |
+| SCL | PA23 | SCL | | 22 |
 
+
+All other definitions can be found [here](https://github.com/robotics-masters/mm1-hat-arduino/blob/master/custom_board/RoboHat-0.0.26/variants/robohatmm1_m4/variant.cpp)
