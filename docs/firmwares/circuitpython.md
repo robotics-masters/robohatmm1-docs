@@ -2,7 +2,7 @@
 
 * [Overview](#overview)
 * [Enter Bootloader Mode](#bootloader-mode)
-* [Download latest MM1 CircuitPython firmware](#download-firmware)
+* [Download latest CircuitPython](#download-firmware)
 * [Flash Firmware](#flash-firmware)
 
 ## Overview
@@ -14,16 +14,24 @@ CircuitPython ships pre-installed on all RoboHAT MM1 boards.  This section is on
 
 ##Bootloader Mode
 
-first you need to put the board into Bootloader Mode.  This allows you to upload new firmware to the RoboHAT MM1.
+First you need to put the board into Bootloader Mode.  This allows you to upload new firmware to the RoboHAT MM1.
 
-To enter Bootloader Mode please follow [Enter Bootloader Mode](/firmwares/bootloader/#enter-bootloader-mode) guide
+To enter the Bootloader Mode on RoboHAT MM1.
+
+**1**: Please plugin the Micro-USB cable to your computer,
+
+**2**: Double press the reset button located on the right bottom side of the board and above the Grove connecter.
+
+Then you will see the on board Red LED blink in breathing mode, then you will see a ROBOM4BOOT drive on the your computer.
+
+[More Information](/firmwares/bootloader/#enter-bootloader-mode)
 
 ##Download Firmware
 
 Please visit Adafruit CircuitPython [firmware download page](https://circuitpython.org/board/robohatmm1_m4/)
 Please choose the relevant language you want to use for the CircuitPython REPL and then click DOWNLOAD .UF2 NOW button, you will have a file with name like this "adafruit-circuitpython-robohatmm1_m4-en_US-5.0.0-beta.0.uf2".
 
-The latest CircuitPython version is: 5.0.0
+The latest CircuitPython version is: 5.1
 
 ##Flash Firmware
 

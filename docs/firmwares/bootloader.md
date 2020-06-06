@@ -5,7 +5,7 @@
 * [Overview](#overview)
 * [Enter Bootloader Mode](#enter-bootloader-mode)
 * [Update Bootloader](#update-bootloader)
-* [Compile Bootloader](#install-bootloader)
+* [Compile Bootloader](#compile-bootloader)
 
 ## Overview
 
@@ -15,7 +15,7 @@ We selected UF2 bootloader as it is easy to use, the UF2 is stands for [USB Flas
 
 We used the [Adafruit fork](https://github.com/adafruit/uf2-samdx1/) of the UF2 code which supports SAMD51G19 microcontroller which is used on the RoboHAT MM1.
 
-## Step 1 - Enter Bootloader Mode
+##Enter Bootloader Mode
 
 To enter the Bootloader Mode on RoboHAT MM1.
 
@@ -27,7 +27,7 @@ Then you will see the on board Red LED blink in breathing mode, then you will se
 
 CONGRATULATIONS!!! Your RoboHAT MM1 is currently in the bootloader mode.
 
-## Step 2 - Update Bootloader
+##Update Bootloader
 
 To update the bootloader
 
@@ -36,7 +36,7 @@ To update the bootloader
 **2**: Drag & Drop the latest Bootloader update file you have downloaded from above to the ROBOM4BOOT drive.(note: this is drive only show up in Bootloader mode)
 
 
-## Extra - Compile Bootloader
+##Compile Bootloader
 
 Important: Not recommend for beginners.
 
