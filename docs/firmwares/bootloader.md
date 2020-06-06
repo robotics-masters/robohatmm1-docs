@@ -5,7 +5,7 @@
 * [Overview](#overview)
 * [Enter Bootloader Mode](#enter-bootloader-mode)
 * [Update Bootloader](#update-bootloader)
-* [Compile Bootloader](#compile-bootloader)
+* [Custom Boards](#custom-boards)
 
 ## Overview
 
@@ -36,7 +36,7 @@ To update the bootloader
 **2**: Drag & Drop the latest Bootloader update file you have downloaded from above to the ROBOM4BOOT drive.(note: this is drive only show up in Bootloader mode)
 
 
-##Compile Bootloader
+##Custom Boards
 
 Important: Not recommend for beginners.
 

@@ -1,15 +1,16 @@
-## Arduino
+# Arduino
 
-* [Introduction](#introduction)
-    - [Setup](#setup-robo-hat-mm1)
-* [Examples](#examples)
-    - [Blink - example](#blink-example)
-#Introduction
+* [Overview](#overview)
+* [Install Board Files](#install-robo-hat-mm1)
+* [Flash CircuitPython](#flash)
+* [Custom Boards](#custom-boards)
+
+##Overview
 
 Arduino IDE is a very popular C++ based programming interface for the Arduino Platform.  It also supports custom boards and is used by many makers around the world.
 
 
-##Setup Robo HAT MM1
+##Install Robo HAT MM1
 
 **STEP 1**
 

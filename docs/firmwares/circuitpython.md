@@ -4,6 +4,7 @@
 * [Enter Bootloader Mode](#bootloader-mode)
 * [Download latest CircuitPython](#download)
 * [Flash CircuitPython](#flash)
+* [Custom Boards](#custom-boards)
 
 ## Overview
 Thanks to Adafruit for the implementation of [CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)![donkey](/assets/logos/rpi_logo.png)
@@ -40,6 +41,7 @@ To flash the firmware just simply drag and drop the firmware file you have downl
 Then wait for the circuitPython firmware to boot up, then you will see the Red LED blinks for a bit and then stop blinking, then you will see a "CIRCUITPY" USB drive show up on you computer.
 
 ##Custom Boards
+
 Important: Not recommend for beginners.
 
 Please head to our [circuitpython github repo](https://github.com/robotics-masters/mm1-hat-cpy-native) for more information
