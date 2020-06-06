@@ -15,9 +15,10 @@ pages:
         - 'Bootloader': firmwares/bootloader.md
         - 'Circuit Python': firmwares/circuitpython.md
         - 'Arduino': firmwares/arduino.md
-        - 'Seesaw': firmwares/seesaw.md
-        - 'Dronecode': firmwares/dronecode.md
-    - User Guide:
+        - 'Firmata (Coming Soon)' : nopage.md
+        - 'Seesaw (Coming Soon)': nopage.md
+        - 'Dronecode (Coming Soon)': nopage.md
+    - User Guides:
         - 'Preperation': guide/preperation.md
         - 'Circuit Python': guide/circuitpython.md
         - 'Circuit Python API': guide/Circuitpython API/Circuit_Python_API.md
