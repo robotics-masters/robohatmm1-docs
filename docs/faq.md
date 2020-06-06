@@ -18,12 +18,14 @@ Both ship world-wide.
 
 There are two options that you can go with at the moment.  [CircuitPython](firmwares/circuitpython) or [Arduino IDE](firmwares/arduino).
 If you want to use CircuitPython, you can download it from the CircuitPython.org website and follow the guide here - [Getting Started with Robo HAT MM1 (CircuitPython)](https://www.hackster.io/wallarug/getting-started-with-robohat-mm1-circuitpython-d3ee77).   This option is ideal if you are planning on using any of the below:
+
 - Python Language Variant
 - The Donkey Car Platform - Guide for [Raspberry Pi](https://www.hackster.io/wallarug/autonomous-cars-with-robo-hat-mm1-8d0e65), Guide for [Jetson Nano](https://www.hackster.io/wallarug/donkey-car-with-jetson-nano-robo-hat-mm1-e53e21)
 - Sensors - [IMU](https://github.com/wallarug/CircuitPython_MPU9250), GPS, [Current Sensor](https://github.com/adafruit/Adafruit_CircuitPython_INA219), etc
 - Experimenting with RM EDU Car Kit - [GitHub](https://github.com/robotics-masters/EduCar).
 
 If you want to use Arduino IDE, you need to follow the Getting Started with Robo HAT MM1 (Arduino) Guide.  This option is good if you are planning on:
+
 - C++ Language Variant
 - Firmata Firmware
 - Multiple Serial Ports for GPS or need USB Serial Native Support
