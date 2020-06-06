@@ -26,5 +26,6 @@ pages:
     - Projects: 
         - 'RM EduCar' : projects/rmeducar.md
 
+    - About: about.md
     - Contribute : contribute.md
     - FAQ : faq.md
