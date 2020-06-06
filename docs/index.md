@@ -85,6 +85,3 @@ Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [
 # Board Pinout
 -----------------------
 ![Pinout](img/pinout_map.jpg)
-
-
------------------------
