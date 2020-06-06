@@ -39,4 +39,11 @@ To flash the firmware just simply drag and drop the firmware file you have downl
 
 Then wait for the circuitPython firmware to boot up, then you will see the Red LED blinks for a bit and then stop blinking, then you will see a "CIRCUITPY" USB drive show up on you computer.
 
+##Custom Boards
+Important: Not recommend for beginners.
+
+Please head to our [circuitpython github repo](https://github.com/robotics-masters/mm1-hat-cpy-native) for more information
+
+There is also a guide - [CircuitPython: Creating Custom Boards](https://www.hackster.io/wallarug/circuitpython-creating-custom-boards-8e979e) - that you can follow and use if you want to build your own custom board or firmware.
+
 ## Next: [Programming in CircuitPython](/guide/circuitpython/).

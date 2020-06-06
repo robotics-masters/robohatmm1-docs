@@ -34,3 +34,12 @@ The latest version is 1.8.3
 **STEP 3**
 
 Select the Robo HAT MM1 as you would a normal Arduino Board from the "boards" menu.  Then compile a sketch (blink is a good example) to ensure everything is working as expected.
+
+
+##Custom Boards
+
+Important: Not recommend for beginners.
+
+Please head to our [arduino github repo](https://github.com/robotics-masters/mm1-hat-arduino) for more information
+
+There is also a guide - [Arduino IDE: Creating Custom Boards](https://www.hackster.io/wallarug/arduino-ide-creating-custom-boards-89f7a6) - that you can follow and use if you want to build your own custom board or firmware.
