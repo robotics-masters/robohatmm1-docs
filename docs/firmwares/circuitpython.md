@@ -1,9 +1,9 @@
-#Circuit Python Firmware
+#CircuitPython Firmware
 
 * [Overview](#overview)
 * [Enter Bootloader Mode](#bootloader-mode)
-* [Download latest CircuitPython](#download-firmware)
-* [Flash Firmware](#flash-firmware)
+* [Download latest CircuitPython](#download)
+* [Flash CircuitPython](#flash)
 
 ## Overview
 Thanks to Adafruit for the implementation of [CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython)![donkey](/assets/logos/rpi_logo.png)
@@ -26,14 +26,14 @@ Then you will see the on board Red LED blink in breathing mode, then you will se
 
 [More Information](/firmwares/bootloader/#enter-bootloader-mode)
 
-##Download Firmware
+##Download
 
 Please visit Adafruit CircuitPython [firmware download page](https://circuitpython.org/board/robohatmm1_m4/)
 Please choose the relevant language you want to use for the CircuitPython REPL and then click DOWNLOAD .UF2 NOW button, you will have a file with name like this "adafruit-circuitpython-robohatmm1_m4-en_US-5.0.0-beta.0.uf2".
 
 The latest CircuitPython version is: 5.1
 
-##Flash Firmware
+##Flash
 
 To flash the firmware just simply drag and drop the firmware file you have downloaded above with .uf2 to the "ROBOM4BOOT" USB drive.  
 
