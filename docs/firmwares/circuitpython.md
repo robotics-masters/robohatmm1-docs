@@ -48,4 +48,4 @@ Please head to our [circuitpython github repo](https://github.com/robotics-maste
 
 There is also a guide - [CircuitPython: Creating Custom Boards](https://www.hackster.io/wallarug/circuitpython-creating-custom-boards-8e979e) - that you can follow and use if you want to build your own custom board or firmware.
 
-## Next: [Programming in CircuitPython](/guide/circuitpython/).
+## Next: [Programming in CircuitPython](guide/circuitpython/).
