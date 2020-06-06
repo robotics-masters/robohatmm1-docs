@@ -13,8 +13,7 @@ pages:
         - 'Pinout map': hardware/pinout.md
     - Firmwares:
         - 'Bootloader': firmwares/bootloader.md
-        - 'Flash Firmware': firmwares/flash_firmware.md
-        - 'Circuit Python Firmware': firmwares/circuitpython.md
+        - 'Circuit Python': firmwares/circuitpython.md
         - 'Arduino': firmwares/arduino.md
         - 'Seesaw': firmwares/seesaw.md
         - 'Dronecode': firmwares/dronecode.md
