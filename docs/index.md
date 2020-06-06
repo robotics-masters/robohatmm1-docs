@@ -6,7 +6,7 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
 ![Robo HAT MM1 image](img/robohatmm1.png)
 
 ## Features & Specifications
-
+-----------------------
 * **Processor**: 120 MHz [SAM D51G (M4)](http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf)
 * **Memory**: 192 KB SRAM
 * **Storage:** 512 KB internal programmable flash + additional 8 MB SPI flash
@@ -51,13 +51,15 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
     * Depth: 56.5 mm
     * Height: 30 mm
 
-----------------
+
 
 # Get Started
-
+-----------------------
 Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [Arduino IDE](https://www.arduino.cc/), and other libraries the Robo HAT is able to act as a single solution for all projects great and small.
 
+
 ## Online Guides
+-----------------------
 1. [Getting Started with Robo HAT MM1 - CircuitPython](https://www.hackster.io/wallarug/getting-started-with-robohat-mm1-circuitpython-d3ee77)
 2. [Getting Started with Robo HAT MM1 - Arduino IDE](https://www.hackster.io/wallarug/getting-started-with-robohat-mm1-arduino-ide-1d1954)
 3. [Donkey Car Simulator](https://www.hackster.io/wallarug/donkey-car-simulator-with-real-rc-controller-628e77)
@@ -65,27 +67,24 @@ Robo HAT MM1 support for [Adafruit CircuitPython](https://circuitpython.org/), [
 5. [Donkey Car Raspberry Pi](https://www.hackster.io/wallarug/autonomous-cars-with-robo-hat-mm1-8d0e65)
 
 ## Bootloader
-
+-----------------------
 1. [UF2 bootloader](firmwares/bootloader.md)
 
 ## Firmware Options
+-----------------------
 1. [CircuitPython](firmwares/circuitpython.md)
 2. [Arduino](firmwares/arduino.md)
 3. [SeeSaw](firmwares/seesaw.md) -- Coming Soon!
 4. [Dronecode](firmwares/dronecode.md) -- Coming Soon!
 
 ## Projects
+-----------------------
 1. [RM EDU Car](projects/rmeducar.md)
 
 
 # Board Pinout
-
+-----------------------
 ![Pinout](img/pinout_map.jpg)
 
----------------
-
-## Installation
-
-<!-- [How to install](guide/install_software.md) -->
 
 -----------------------
