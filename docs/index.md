@@ -37,7 +37,7 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
 * **Triple-redundant Power Supply Support**
     - Feedback through servo power rail (e.g., from ESC)
     - 5 V from on-board regulator powered through main battery
-    - 5 V from on-board regulator power through backup LiPo battery + charger via USB  
+    - 5 V from on-board regulator power through backup LiPo battery (JST-PH) + charger via USB  
 * **Built-in Protection**
     - USB Port is protected from voltage spikes
     - All power rails are protected by reverse voltage protection circuits.
@@ -52,7 +52,7 @@ Robo HAT MM1  is an open source robotics controller board designed for Single Bo
     * Depth: 56.5 mm
     * Height: 30 mm
 
-
+Note:  The LiPo Battery Charger Connector is JST-PH type.
 
 # Get Started
 -----------------------
