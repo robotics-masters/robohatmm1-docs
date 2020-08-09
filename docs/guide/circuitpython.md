@@ -6,6 +6,7 @@
 * [Examples](#examples)
     - [Blink](#blink-example)
     - [Servos](#servos-example)
+    - [NeoPixel](#neopixels-example)
 
 ##Introduction
 
@@ -34,7 +35,7 @@ python3 code.py
 
 This example blinks the on board LED forever.
 
-```python
+```python3
 import board
 import digitalio
 import time
@@ -57,7 +58,7 @@ This example moves the servo motor attached to SERVO1 pin in a pan motion.  It w
 For this example you are required to download and copy the adafruit_motor library into the lib/ folder located on the RoboHAT MM1.  It can be downloaded from [here](https://github.com/adafruit/Adafruit_CircuitPython_Motor/releases).
 
 
-```
+```python3
 import board
 import digitalio
 import time
@@ -87,6 +88,48 @@ while True:
     time.sleep(0.5)
 
 ```
+
+# NeoPixels Example
+This example changes the colour of three neopixel lights connected to the NEOPIXEL pin.  The code cycles through four different colours and has different patterns.  It will continue doing this over and over until you stop it. 
+
+```python3
+from time import sleep
+import board
+import neopixel
+ 
+pixel_pin = board.NEOPIXEL
+num_pixels = 3
+ 
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
+ 
+def color_chase(color, wait):
+    for i in range(num_pixels):
+        pixels[i] = color
+        sleep(wait)
+        pixels.show()
+    sleep(0.5)
+ 
+RED = (255, 0, 0)
+YELLOW = (255, 150, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+ 
+while True:
+    pixels.fill(RED)
+    pixels.show()
+    # Increase or decrease to change the speed of the solid color change.
+    sleep(1)
+    pixels.fill(GREEN)
+    pixels.show()
+    sleep(1)
+    pixels.fill(BLUE)
+    pixels.show()
+    sleep(1)
+ 
+    color_chase(RED, 0.1)
+    color_chase(YELLOW, 0.1)
+    color_chase(GREEN, 0.1)
+ ```
 
 
 Make sure you check out the [Adafruit Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/overview) to get further information about CircuitPython and how to use all the libraries.
