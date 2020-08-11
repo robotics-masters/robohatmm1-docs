@@ -7,12 +7,13 @@
     - [Blink](#blink-example)
     - [Servos](#servos-example)
     - [NeoPixel](#neopixels-example)
+* [Further reading](#further-reading)
 
 ## Introduction
 
 ### The lib folder
 
-Inside your CIRCUITPY drive there will be a folder called `lib`.  This folder will contain any libraries you want to use with CircuitPython.  It is similar to the Python site-packages folder.
+Inside your CIRCUITPY drive there will be a folder called `lib`.  This folder will contain any libraries you want to use with CircuitPython. It is similar to the Python site-packages folder.
 
 To add a new library you just download the corresponding python file (usually `.mpy`) and paste it into the `lib` folder.
 
@@ -25,7 +26,7 @@ All the code you want to run on a CircuitPython board must be placed into the `c
 
 You are able to import other Python files but remember that `code.py` is the file that gets run similar to how you would do it on the command line.
 
-```
+```shell
 python3 code.py
 ```
 
@@ -48,6 +49,7 @@ while True:
     time.sleep(0.5)
     led.value = False
     time.sleep(0.5)
+
 ```
 
 
@@ -89,8 +91,9 @@ while True:
 
 ```
 
-# NeoPixels Example
-This example changes the colour of three neopixel lights connected to the NEOPIXEL pin.  The code cycles through four different colours and has different patterns.  It will continue doing this over and over until you stop it. 
+### NeoPixels Example
+
+This example changes the colour of three neopixel lights connected to the NEOPIXEL pin.  The code cycles through four different colours and has different patterns. It will continue doing this over and over until you stop it. 
 
 ```python3
 from time import sleep
@@ -129,9 +132,11 @@ while True:
     color_chase(RED, 0.1)
     color_chase(YELLOW, 0.1)
     color_chase(GREEN, 0.1)
+
  ```
 
+## Further reading
 
 Make sure you check out the [Adafruit Learn Guide](https://learn.adafruit.com/welcome-to-circuitpython/overview) to get further information about CircuitPython and how to use all the libraries.
 
-Head to [CircuitPython API](/guide/Circuitpython%20API/Circuit_Python_API/) for more information about the pins and library.
+Head to [CircuitPython API](../Circuitpython%20API/Circuit_Python_API/) for more information about the pins and library.
