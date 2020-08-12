@@ -15,7 +15,7 @@ pages:
         - 'Bootloader': firmwares/bootloader.md
         - 'Circuit Python': firmwares/circuitpython.md
         - 'Arduino': firmwares/arduino.md
-        - 'Firmata (Coming Soon)' : nopage.md
+        - 'Firmata (NEW!)' : firmwares/firmata.md
         - 'Seesaw (Coming Soon)': nopage.md
         - 'Dronecode (Coming Soon)': nopage.md
     - User Guides:
